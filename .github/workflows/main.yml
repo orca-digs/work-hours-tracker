@@ -28,3 +28,6 @@ jobs:
         with:
           name: apk
           path: app/build/outputs/apk/debug/*.apk
+          
+          env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
